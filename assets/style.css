@@ -1,0 +1,24 @@
+body
+{
+    width: 100%;
+	height: 100vh;
+	
+
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: #A8DADC;
+}
+
+#bureau
+{
+    animation-name: mouvementBureau ;
+    animation-duration: 3s;
+}
+
+
+@keyframes mouvementBureau{
+    from {top : 0px;}
+    to {top : 200px;}
+}
