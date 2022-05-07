@@ -132,6 +132,13 @@ svg
 #mouche_1
 {
     animation-name: mouvementMouche;
+    animation-duration: 40s;
+    animation-iteration-count: infinite; 
+}
+
+#mouche_2
+{
+    animation-name: mouvementMouche2;
     animation-duration: 25s;
     animation-iteration-count: infinite; 
 }
@@ -173,4 +180,9 @@ svg
 @keyframes mouvementMouche {
     0%{transform: translateX(-500px);}
     100%{transform: translateX(300px);}
+}
+
+@keyframes mouvementMouche2 {
+    0%{transform: translateX(300px);}
+    100%{transform: translateX(-500px);}
 }
